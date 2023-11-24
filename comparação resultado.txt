@@ -1,0 +1,16 @@
+A complexidade de tempo das operações para esta implementação de fila de prioridades
+usando lista ligada é a seguinte:
+
+enfileirar: O(1) - Em geral, a inserção em uma lista ligada no início é uma operação de tempo
+constante.
+
+desenfileirar: O(1) - Remoção do início de uma lista ligada é uma operação de tempo
+constante.
+
+estaVazia: O(1) - Verificar se a fila está vazia é uma operação de tempo constante.
+Comparando com uma implementação usando heap, a inserção e remoção em um heap
+binário têm uma complexidade de tempo de O(log n), onde n é o número de elementos na fila.
+Portanto, em termos de complexidade de tempo, a implementação de fila de prioridades
+usando um heap pode ser mais eficiente para grandes conjuntos de dados. No entanto, a
+escolha entre as implementações depende dos requisitos específicos do problema e das
+operações que são mais frequentes.
